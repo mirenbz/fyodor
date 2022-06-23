@@ -1,5 +1,9 @@
 # Fyodor
 
+**Note**: This is customized to my own personal needs. For the default app, head to [the forked original by Rafael Cavalcanti](https://github.com/rc2dev/fyodor).
+
+---
+
 Convert your Amazon Kindle highlights, notes and bookmarks into markdown (or any format).
 
 ## What is Fyodor
@@ -51,10 +55,10 @@ $ gem update fyodor
 
 Fyodor reads an optional configuration file at `~/.config/fyodor/fyodor.toml` or `$XDG_CONFIG_HOME/fyodor/fyodor.toml`. This section describes the available parameters (none is required).
 
-To download the [default configuration](share/defaults/fyodor.toml):
+To download [the configuration file](share/defaults/fyodor.toml):
 
 ```shell-session
-$ curl https://raw.githubusercontent.com/rc2dev/fyodor/master/share/defaults/fyodor.toml --create-dirs -o ~/.config/fyodor/fyodor.toml
+$ curl https://raw.githubusercontent.com/mirenbz/fyodor/master/share/defaults/fyodor.toml --create-dirs -o ~/.config/fyodor/fyodor.toml
 ```
 
 ### Languages
@@ -101,6 +105,12 @@ The default template can be found [here](share/defaults/template.erb). You can u
 
 If you use a format other than markdown, you'll want to change the files extension. To do this, refer to [the corresponding section](#change-output-file-names).
 
+To download [the template file](share/defaults/template.erb):
+
+```shell-session
+$ curl https://raw.githubusercontent.com/mirenbz/fyodor/master/share/defaults/template.erb --create-dirs -o ~/.config/fyodor/fyodor.toml
+```
+
 ## Usage
 
 ```shell-session
@@ -112,13 +122,7 @@ Where:
 - `CLIPPINGS_FILE` is the path for `My Clippings.txt`.
 - `OUTPUT_DIR` is the directory to write the output files. If none is supplied, this will be `fyodor_output` under the current directory.
 
-## PSA: HTML to markdown
-
-Did you export your annotations to HTML using the Kindle mobile app?
-
-You can convert it to markdown with [a script I wrote specifically for it](https://rafaelc.org/k/kindle2md).
-
-## Buy me a coffee
+## Buy **Rafael Cavalcanti** a coffee
 
 If you like Fyodor, you can show your support here:
 

@@ -2,13 +2,13 @@
 
 # Set the translations you get on your clippings file.
 [parser]
-highlight = "Your Highlight"
-note = "Your Note"
-bookmark = "Your Bookmark"
+highlight = "Tu subrayado"
+note = "Tu nota"
+bookmark = "Tu marcador"
 clip = "Clip This Article"
-loc = "Location"
-page = "page"
-time = "Added on"
+loc = "Posición"
+page = "en la página"
+time = "Añadido el"
 
 [output]
 filename = "%{author_fill} - %{title}.md"
